@@ -1,0 +1,44 @@
+{
+  "name": "memory-in-box",
+  "version": "1.0.3",
+  "description": "Three-layer memory system for AI agents with auto-distillation",
+  "type": "module",
+  "main": "./src/store.mjs",
+  "exports": {
+    ".": "./src/store.mjs"
+  },
+  "bin": {
+    "mib": "./bin/mib.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "SKILL.md",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10iii/memory-in-box.git"
+  },
+  "homepage": "https://github.com/10iii/memory-in-box#readme",
+  "bugs": {
+    "url": "https://github.com/10iii/memory-in-box/issues"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "memory",
+    "skill",
+    "claude",
+    "opencode",
+    "claude-code",
+    "three-layer",
+    "auto-distillation",
+    "context-engineering"
+  ],
+  "author": "10iii",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
